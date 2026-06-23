@@ -6,6 +6,23 @@ body{
 
 header{
     text-align: center;
-    color: white
-    
+    color: white;
+    background-color: yellowgreen;
+    margin-top: 0px;
+    padding: 0px;
+}
+table{ background-color: white;
+
+
+}
+img{border-radius: 40px ;
+}
+div{
+    display:flex;
+    gap:40px;
+
+}
+div h2 {
+    white-space: nowrap;
+    color: white;
 }
