@@ -1,5 +1,6 @@
 body{
     background-color: rgb(184, 184, 6);
+    margin:0%
 
 }
 
@@ -8,14 +9,24 @@ header{
     text-align: center;
     color: white;
     background-color: yellowgreen;
-    margin-top: 0px;
-    padding: 0px;
+    padding: 50px;
+    margin:0%;
+    padding: 20px 40px;
 }
 table{ background-color: white;
 
 
 }
-img{border-radius: 40px ;
+div{
+    display: flex;
+    gap: 40px;
+}
+
+
+div img{border-radius: 40px ;
+    width: 400px;
+    height: 280px;
+
 }
 div{
     display:flex;
@@ -25,4 +36,16 @@ div{
 div h2 {
     white-space: nowrap;
     color: white;
+}
+div h3{
+    color:whitesmoke;
+    white-space: nowrap;
+}
+
+h2{
+    color:whitesmoke
+}
+
+p{
+    color:whitesmoke
 }
