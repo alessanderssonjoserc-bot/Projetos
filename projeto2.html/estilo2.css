@@ -1,26 +1,144 @@
+
+
 body{
-   background-color: rgba(255, 255, 102, 0.733); 
-   margin:0%;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #009c3b, #ffdf00);
+    color:#222;
 }
 
-
-
-
+/* Cabeçalho */
 
 header{
-   color:white;
-    text-align: center;
-    background-color:rgb(0, 167, 0);
-     padding: 50px;
-    margin:0%;
-    padding: 20px 40px;
-
+    background:#002776;
+    color:white;
+    text-align:center;
+    padding:30px;
+    box-shadow:0 5px 10px rgba(0,0,0,.3);
 }
+
+h1{
+    margin:0;
+    font-size:42px;
+}
+
+/* Títulos */
 
 h2{
- text-align: center;
-    
+    text-align:center;
+    color:#002776;
+    margin-top:35px;
 }
+
+/* Texto */
+
+h3{
+    width:85%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-left:8px solid #009c3b;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    font-weight:normal;
+    line-height:1.7;
+    text-align:justify;
+}
+
+/* Tabela */
+
 table{
-    text-align: center;
+    width:90%;
+    margin:35px auto;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 8px 18px rgba(0,0,0,.25);
+}
+
+th{
+    border:1px solid #ddd;
+    padding:16px;
+}
+
+tr:first-child{
+    background:#009c3b;
+    color:white;
+}
+
+tr:nth-child(even){
+    background:#f4f4f4;
+}
+
+tr:hover{
+    background:#fff4a3;
+}
+
+/* Rodapé */
+
+footer{
+    background:#002776;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+/* Botão */
+
+.botao{
+    text-align:center;
+    margin:40px;
+}
+
+.botao a{
+    text-decoration:none;
+    background:#002776;
+    color:white;
+    padding:15px 30px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.botao a:hover{
+    background:#009c3b;
+}
+
+/* Responsividade */
+
+@media(max-width:768px){
+
+    h1{
+        font-size:30px;
+    }
+
+    table{
+        width:95%;
+    }
+
+    h3{
+        width:92%;
+    }
+
+}
+
+nav{
+    text-align:center;
+    margin:40px;
+}
+
+nav a{
+    background:#002776;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#009c3b;
+    transform:scale(1.05);
 }
